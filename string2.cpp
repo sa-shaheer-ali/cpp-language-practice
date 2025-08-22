@@ -61,7 +61,7 @@ MyString reverse()const{
     }
         newchar[length]='\0';
 
-        MyString result(newchar);
+        MyString result(newchar);;
         delete[] newchar;
         
         
@@ -88,3 +88,4 @@ int main (){
     std::cout<<"assigned s6=s2:";s6.print();std::cout<<std::endl;
     return 0;
 }
+
