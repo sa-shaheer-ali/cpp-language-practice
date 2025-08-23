@@ -13,13 +13,13 @@ int fileSize=100;
 void downloadFile(int id){
     int progress=0;
     while(progress<fileSize){
-        std::this_thread::sleep_for(std::chrono::milliseconds(50));
+        std::this_thread::sleep_for(std::chrono::seconds(1));
 
         progress+=5  ;
         {
             std::lock_guard<std::mutex>lock(mtx);
             totalProgess+=5;
-            std::cout<<"File " <<id<<"progress: "<<std::setw(3)<<progress << "%   "
+            std::cout<<"File " <<id<<"progress: "<<std::setw(4)<<progress << "%   "
                       << "Total: " <<(totalProgess*100)/(totalFiles*fileSize)<<"&\n";
 
 
