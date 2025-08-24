@@ -15,7 +15,7 @@ int main(){
     std::cout<<"enter the matrice 2:"<<std::endl;
     for (int i = 0; i < count; i++)
     {for (int j= 0; j < count; j++)
-    {std::cin>>mar2[i][j];
+    {std::cin>>mar2[i][j];;
 
         /* code */
     }
@@ -48,4 +48,5 @@ int main(){
     return 0;
     
     
+
 }
