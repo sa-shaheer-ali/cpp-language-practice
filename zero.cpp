@@ -11,7 +11,7 @@ void moveZeroes(std::vector<int>& nums){
         }
     }
         while(index<nums.size()){
-            nums[index++]=0;
+            nums[index++]=0;;
 
         }
 
@@ -24,4 +24,5 @@ int main (){
     std::cout<<num;
 }
 return 0;
+
 }
