@@ -28,7 +28,7 @@ class  Aircraft{
 
     }
 
-    };
+    };;
 
     class monitoringsystem{
         public:
@@ -48,4 +48,5 @@ class  Aircraft{
         system.data(aircraft1);
         moniter.monitoingaircraft(aircraft1);
         return 0;
+
     }
