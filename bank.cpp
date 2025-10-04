@@ -16,7 +16,7 @@ public:
     }
     virtual void deposit(int amount){
         balance+=amount;
-        std::cout<<"submitted amount:"<<amount<<std::endl<<"your balance:"<<balance<<std::endl;
+        std::cout<<"submitted amount:"<<amount<<std::endl<<"your balance:"<<balance<<std::endl;;
 
     }
     virtual void withdraw(int amount){
@@ -155,4 +155,5 @@ std::cout << "Invalid choice" << std::endl;
 
 
 }
+
 }
