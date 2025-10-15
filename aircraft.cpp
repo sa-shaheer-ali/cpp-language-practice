@@ -35,7 +35,7 @@ class  Aircraft{
         void monitoingaircraft(const Aircraft& aircraft  ){
             std::cout<<"monitoring aircraft: "<<aircraft.getid();
             if (aircraft.getaltitide()>10000)
-            {std::cout<<"Warning: High Altitude For Aircraft.."<<std::endl;                /* code */
+            {std::cout<<"Warning: High Altitude For Aircraft.."<<std::endl;         
             }
             
         }
@@ -50,3 +50,4 @@ class  Aircraft{
         return 0;
 
     }
+
